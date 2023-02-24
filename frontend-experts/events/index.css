@@ -1,0 +1,8 @@
+#scrollable {
+    overflow: auto;
+    margin: 1em;
+    border: 5px solid black;
+    height: 70px;
+    background-color: lightblue;
+    padding: 10px
+}
