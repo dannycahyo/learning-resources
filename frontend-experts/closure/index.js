@@ -57,6 +57,15 @@ for (var i = 0; i < 3; i++) {
   setTimeout(() => console.log(i), 500);
 }
 
+/*
+Whereas, when var is used, it’s scope is not block. 
+This doesn’t trigger the async function for a change 
+in the value and the variable is only “closed” after
+the loop has completed and hence the value 10, in your case.
+
+Look at the line nine of this file, it's same like that.
+*/
+
 // console.log("VAR", i);
 
 // Let's break down, this is what happend if we use let
